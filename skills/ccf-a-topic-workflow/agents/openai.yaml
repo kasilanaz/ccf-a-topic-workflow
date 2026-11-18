@@ -1,4 +1,4 @@
 interface:
   display_name: "CCF-A 科研选题工作流"
-  short_description: "从已有论文梳理方向和不足，查新并核查拟创新点，形成有证据的研究选题"
-  default_prompt: "用 $ccf-a-topic-workflow 分析我提供的论文，查新并给出有文献依据的候选选题。"
+  short_description: "从已有论文发现研究问题、逐条查新并对照正式论文筛选 CCF-A 主选题"
+  default_prompt: "用 $ccf-a-topic-workflow 分析我提供的论文，逐条查新，只推荐通过 CCF-A 准入审查的主选题。"

@@ -6,6 +6,6 @@
 | --- | --- | --- |
 | 方向、局限与候选题 | [Claude Scholar · research-ideation（Codex）](https://github.com/Galaxy-Dawn/claude-scholar/blob/codex/skills/research-ideation/SKILL.md) | 从指定论文提取方法、条件、局限和证据，形成问题卡。论文规模较大或结论难以比较时，可用 [Supervisor · deep-research](https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/deep-research/SKILL.md) 协助做跨论文综合。 |
 | 候选查新 | [ARIS · novelty-check](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/novelty-check/SKILL.md) | 输入候选问题、各条拟贡献和现有证据，逐项返回近邻论文、重叠范围和实质差异。为会左右判定的主张复核全文。 |
-| 概念评审 | [CCFA · ccf-idea-reviewer](https://github.com/mikubaka88/CCFA-Skills/blob/main/ccf-idea-reviewer/SKILL.md) | 输入问题、文献来源、最接近工作和查新表，按概念评审范围看问题价值、洞察、机制和相对贡献。 |
+| 概念评审 | [CCFA · ccf-idea-reviewer](https://github.com/mikubaka88/CCFA-Skills/blob/main/ccf-idea-reviewer/SKILL.md) | 输入问题、文献来源、近邻、查新表及目标方向的正式论文，按概念评审范围检查问题价值、洞察和相对贡献，给出最强质疑及证据。汇总时仍须检查本工作流的四项准入条件。 |
 
-只调用相关模块；其他模块的完整调研、外部评审、实验或写作流程按实际任务和授权另行选择。汇总时以可追溯的论文证据作为最终判断依据。
+只调用相关模块。完整调研、外部评审、实验或写作流程按实际任务和授权另行选择。汇总时以可追溯的论文证据作为最终判断依据。

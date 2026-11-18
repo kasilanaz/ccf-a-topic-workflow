@@ -18,8 +18,4 @@
 
 仅限用户提供的语料时，在其中比较种子论文、补充材料和候选问题，记录实际查阅范围和可用锚点，并标明外部查新未执行。缺少链接、版本或日期的材料使用已有编号或引用位置。
 
-## 参考 CCF-A 论文
-
-从实际目标方向或 track 的已发表论文中抽取问题定义、动机、已有方法的边界、关键洞察和贡献。标题用于识别问题，摘要、引言和正文用于核对贡献。按 [CCF 官方目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/) 核实分级，按会议论文集核实文章和 track。查新同样覆盖相关的其他会议、期刊和预印本。
-
-例如 NeurIPS 2022 的 FlashAttention 关注长序列精确注意力的计算时间与内存开销。引言将内存读写指出为关键瓶颈，进而提出减少 GPU 内存读写的精确注意力算法。可借鉴它从瓶颈建立问题和贡献之间关系的写法。[NeurIPS 论文原文](https://papers.nips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf)
+查新同样覆盖相关的其他会议、期刊和预印本。查新后的候选进入单独的 [CCF-A 准入审查](ccf-a-admission.md)。
